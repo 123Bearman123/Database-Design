@@ -1,0 +1,62 @@
+CREATE TABLE Price
+             (flightno 	VARCHAR(6)    NOT NULL,
+              price    	Decimal(13,2),
+
+PRIMARY KEY (flightno));
+
+
+CREATE TABLE Flights
+
+             (flightno   		VARCHAR(255)	NOT NULL,
+			  source			VARCHAR(255),
+			  destination		VARCHAR(255),
+              eta				VARCHAR(255),
+              numberpassenger	VARCHAR(255), 
+ 
+PRIMARY KEY (flightno));
+
+CREATE TABLE Passport
+
+             (customerid   	VARCHAR(255)	NOT NULL,
+			  passport		VARCHAR(255),
+         
+PRIMARY KEY (customerid));
+
+CREATE TABLE Airlines
+             (airlinename   	VARCHAR(255)	NOT NULL,
+	          airlineid	VARCHAR(255),
+
+              
+PRIMARY KEY (airlineid));
+
+
+CREATE TABLE Attendance
+
+             (customerid  	VARCHAR(255)	NOT NULL,
+	          flightno		VARCHAR(255),	
+	     
+           
+
+CREATE TABLE paid
+             (customerid  	VARCHAR(255)	NOT NULL,
+	         flightno   	VARCHAR(255)	NOT NULL,
+	         paidornot		VARCHAR(255),
+           
+	      
+
+
+
+CREATE TABLE customer
+             (customerid  	VARCHAR(255)	NOT NULL,
+	         fname  		VARCHAR(255),
+	         lname		VARCHAR(255),
+			 address		VARCHAR(255),
+	         email		VARCHAR(255),
+	         phone		VARCHAR(255),
+	      
+PRIMARY KEY (customerid));
+
+
+
+Commit;
+

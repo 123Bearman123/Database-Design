@@ -1,0 +1,39 @@
+INSERT INTO Price VALUES('581327', '250'); 
+INSERT INTO Price VALUES('895142', '300'); 
+INSERT INTO Price VALUES('222555', '200'); 
+
+
+INSERT INTO Flights VALUES('581327', 'Shannon', 'Cork', '17:40','41'); 
+INSERT INTO Flights VALUES('895142', 'Dublin', 'Kerry', '18:00','83'); 
+INSERT INTO Flights VALUES('222555', 'Cork', 'Dublin', '03:20','111');
+
+
+INSERT INTO Passport VALUES('d.bear', 'IE 47362'); 
+INSERT INTO Passport VALUES('monty', 'IE 67894'); 
+INSERT INTO Passport VALUES('bod', 'IE 78306');
+INSERT INTO Passport VALUES('bear_dylan', 'IE 98720 ');  
+
+INSERT INTO Airlines VALUES('Ryanair', 'RYR'); 
+INSERT INTO Airlines VALUES('Are Lingus', 'EIN'); 
+INSERT INTO Airlines VALUES('Stobart', 'STK'); 
+
+INSERT INTO Attendance 	VALUES('d.bear', '581327'); 
+INSERT INTO Attendance  VALUES('monty', '895142'); 
+INSERT INTO Attendance  VALUES('bod', '581327');
+INSERT INTO Attendance  VALUES('bod', '222555');
+INSERT INTO Attendance  VALUES('bear_dylan', '895142'); 
+
+
+
+INSERT INTO paid VALUES('d.bear', '581327', 'no');
+INSERT INTO paid VALUES('monty', '895142', 'no');
+INSERT INTO paid VALUES('bod', '581327', 'yes');
+INSERT INTO paid VALUES('bod', '222555', 'yes');
+INSERT INTO paid VALUES('bear_dylan', '895142', 'no');
+
+INSERT INTO customer VALUES('d.bear', 'Dylan', 'Bearman', '17 Cul na Greine','dylanbearman@gmail.com', '0879376069');
+INSERT INTO customer VALUES('monty', 'Conor', 'Montgomery', '42 College Rd','c.m@mycit.ie', '0830649204');
+INSERT INTO customer VALUES('bod', 'Brian', 'ODrisscoll', '28 Mary Heights','bob@yahoo.com', '0861663836');
+INSERT INTO customer VALUES('bear_dylan', 'Dylan', 'Bearman', '42 College Rd','dbearman@gmail.com', '0896237498');
+
+Commit;
